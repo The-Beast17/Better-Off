@@ -30,7 +30,7 @@ nav , .page4nav{
 nav a{
     color: black;
     text-decoration: none;
-    font-size: 1.3vw;
+    font-size: 3.1vh;
     font-weight: 600;
     border-bottom : 1px solid transparent;
     padding-bottom : 7px;
@@ -43,12 +43,13 @@ nav a:hover{
 
 nav ul{
     display: flex;
-    gap : 1.7vw;
+    gap : 2.3vh;
     list-style:none; /*to chance the list style*/
 }
 
 nav h1{
-    font-size: 1.8vw; /*3.5vh*/
+    font-size: 3.5vh; 
+    font-weight : 700;
 }
 
 nav sup{
@@ -65,6 +66,10 @@ nav sup{
     flex-direction: column;
     justify-content: space-between;
     padding: 0 2vw;
+}
+
+.page1 .empty{
+    height : 20vh;
 }
 .content{
     display: flex;
@@ -112,7 +117,7 @@ nav sup{
     display: flex;
 }
 
-.page1 .slider>.slider-inside{
+.page1 .slider .slider-inside{
     display: inline-block;
     height : 55vh;
     display: flex;
@@ -131,9 +136,11 @@ nav sup{
 }
 .page1 .slider .slider-inside h1{
     font-size: 45vh;
-    font-family:Helvetica, "New Amsterdam",sans-serif;
+    /* font-family:Helvetica, "New Amsterdam",sans-serif; */
     /* font-optical-sizing: auto; */
-    font-weight: 900; 
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 900;
+        font-style: normal; 
 }
 .page1 .slider >.slider-inside > img{
     height : 60%;
@@ -235,8 +242,9 @@ hr{
 .page4 .content{
     width : 100%;
     font-size: 37vh;
-    font-family: Helvetica, sans-serif;
+    /* font-family: "Bebas Neue", sans-serif; */
     font-weight: 900;
+    font-style: normal; 
     flex-wrap: wrap;
 } 
 
