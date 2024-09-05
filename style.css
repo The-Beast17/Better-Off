@@ -113,15 +113,12 @@ nav sup{
     /* height:55vh; */
     /*hide the data out side the parent*/
     overflow: hidden;
-    /* white-space:nowrap; */
-    display: flex;
+    white-space:nowrap;
 }
 
 .page1 .slider .slider-inside{
     display: inline-block;
     height : 55vh;
-    display: flex;
-    align-items:baseline;
     animation: carousal 15s linear infinite ;
 }
 
@@ -135,6 +132,7 @@ nav sup{
     
 }
 .page1 .slider .slider-inside h1{
+    display: inline-block;
     font-size: 45vh;
     /* font-family:Helvetica, "New Amsterdam",sans-serif; */
     /* font-optical-sizing: auto; */
@@ -143,13 +141,16 @@ nav sup{
         font-style: normal; 
 }
 .page1 .slider >.slider-inside > img{
+    display: inline-block;
     height : 60%;
     object-fit: cover;
 }
 
 /*page 2 **************************/
+/*for mobile */
 .page2{
-    padding :0 2%;
+    width : 100%;
+    padding :0 2vw;
 }
 .page2 > h1{
     width : 67%;
@@ -223,8 +224,13 @@ hr{
     text-align: right;
 }
 
+.page3 >.second-h1{
+    display : none;
+}
+
 /*page 4***********************/
 .page4{
+    /* overflow-x: hidden; */
     width : 100%;
     background-color: white;
     padding: 0 2vw;
@@ -241,7 +247,8 @@ hr{
 
 .page4 .content{
     width : 100%;
-    font-size: 37vh;
+    /* font-size: 37vh; */
+    font-size: 17.9vw;
     /* font-family: "Bebas Neue", sans-serif; */
     font-weight: 900;
     font-style: normal; 
@@ -256,7 +263,7 @@ hr{
 }
 
 .page4 .content .video-box{
-    height: 27vh;
+    height: 14vw;
     width : 100%; 
 }
 
@@ -273,6 +280,6 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: end;
-    font-size: 2vh;
+    font-size: 1vw;
     font-weight: 300;
 }
