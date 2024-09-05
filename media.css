@@ -40,7 +40,7 @@ nav i{
     height:9vh;
 }
 .page1 .content{
-    padding : 0 2vw;
+    padding : 0 4vw;
     flex-direction: column-reverse;
 }
 
@@ -88,14 +88,14 @@ nav i{
 .page2{
   width : 100vw;
   overflow-x: hidden;
-  padding : 0;
+ padding : 0 4vw;
 }
 .page2>h1{
-  width : 100vw;
+  width : 100%;
   /* text-align: center; */
   font-size : 8vw;
-  overflow: hidden;
-  padding : 0 4vw;
+  /* overflow: hidden;
+   */
 }
 
 .page2 > h1:first-child{
@@ -105,8 +105,10 @@ nav i{
 /*******************page3**********/
 
 .page3{
+  width : 100vw;
   display : initial;
   overflow: hidden;
+  padding : 0 4vw;
 }
 .page3 > h1:first-child{
   width : 100%;
@@ -125,7 +127,6 @@ nav i{
   width : 100%;
   font-size: 5vw;
   text-align: center;
-  /* padding-right:35vw; */
   padding-bottom: 5vh;
 }
 
@@ -135,7 +136,7 @@ nav i{
   text-align: center;
 }
 .page3 div  p {
-  padding :0 2vw;
+  padding :0 4vw;
   padding-bottom: 6vw;
   font-size:4.3vw;
 }
@@ -169,7 +170,7 @@ nav i{
   font-size: 17vw;
 }
 .page4 .content h1:first-child{
-  font-size: 17.2vw;
+  /* font-size: 17.2vw; */
 }
 
 .page4 .work-box{
